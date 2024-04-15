@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--declare layout and set orientation, width, height, and background color-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical">
+    <!--create textview element and set id, height, textColor, textSize and width-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:textColor="#F80808"
+        android:textSize="100sp" />
 </LinearLayout>
